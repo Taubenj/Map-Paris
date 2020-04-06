@@ -1,0 +1,75 @@
+/* votre code CSS */
+
+h1 {
+  font-family: "Noto Sans", sans-serif;
+  color: red;
+  height: 100px;
+  display: inline;
+
+  margin: 0;
+  padding: 0;
+}
+#mapid {
+  height: 120px;
+  height: calc(100vh - 150px);
+}
+
+body {
+  background-color: #afafae;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 100px;
+  display: inline;
+}
+.prix {
+  color: red;
+}
+.recherche {
+  display: inline;
+}
+.logo {
+  height: 70%;
+}
+.btn1 {
+  border-radius: 10px;
+  padding: 8px;
+  padding-right: 2px;
+
+  background-color: lightgrey;
+  border: 0;
+  margin-bottom: 20px;
+}
+.btn {
+  background: black;
+  border: 1px solid green;
+  color: green;
+  border-radius: 10px;
+}
+.boutons {
+  justify-content: space-between;
+}
+.click {
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.payant {
+  background: lightgray;
+  border: 2px solid red;
+  color: red;
+  border-radius: 10px;
+  padding: 15px;
+  margin-right: 20px;
+}
+.gratuit {
+  background: lightgray;
+  border: 2px solid red;
+  color: red;
+  border-radius: 10px;
+  padding: 15px;
+  margin-right: 200px;
+}

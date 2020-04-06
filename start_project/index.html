@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mon super site</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>
+      <img class="logo" src="img/qfap.jpg" />
+    </h1>
+    <div class="boutons">
+      <form class="recherche" onsubmit="onFormSubmit(event)">
+        <input
+          class="btn1"
+          type="text"
+          name="search"
+          id="serchInput"
+          placeholder="Search"
+        />
+        <input class="btn" type="submit" />
+      </form>
+      <div class="click">
+        <a class="payant" onclick="payant()" href="#">Payant </a>
+        <a class="gratuit" onclick="gratuit()" href="#">Gratuit </a>
+      </div>
+    </div>
+    <div id="mapid"></div>
+
+    <script
+      src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+      integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+      crossorigin=""
+    ></script>
+    <!-- import the webpage's javascript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
